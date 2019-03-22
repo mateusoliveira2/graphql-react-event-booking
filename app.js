@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const graphqlHttp = require('express-graphql')
+
 //gerar graphql schema obj baseado no meu schema
 const { buildSchema } = require('graphql')
 const mongoose = require('mongoose')
@@ -92,4 +93,4 @@ mongoose.connect(`mongodb+srv://mateus:ihGTQpnsPGJCIyIw@cluster0-e1msh.mongodb.n
                 }).catch(err => {
                     console.log(err, "deu merda na conexao")
                 })
-                */
+*/
